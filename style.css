@@ -1407,7 +1407,7 @@ footer {
 }
 
 /* Mobile Landscape - 768px and below */
-/* Mobile Landscape - 768px and below */
+
 @media (max-width: 768px) {
   /* Top bar */
   .top-bar {
@@ -1536,9 +1536,9 @@ footer {
   /* Hero Slideshow - Mobile */
   .hero {
     min-height: 380px;
-    margin: 10px 5px;
+    margin: 9px 1px;
     max-width: 95%;
-    border-radius: 15px;
+    border-radius: 10px 10px 10px 10px;
     display: flex;
     align-items: flex-end;
   }
@@ -1548,7 +1548,7 @@ footer {
     height: 65%;
     left: 0;
     top: 0;
-    border-radius: 15px 15px 0 0;
+    border-radius: 10px 10px 10px 10px;
     opacity: 1;
     background-size: contain;
     background-position: center top;
