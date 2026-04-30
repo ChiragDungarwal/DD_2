@@ -1407,6 +1407,7 @@ footer {
 }
 
 /* Mobile Landscape - 768px and below */
+/* Mobile Landscape - 768px and below */
 @media (max-width: 768px) {
   /* Top bar */
   .top-bar {
@@ -1558,11 +1559,11 @@ footer {
     left: 10px;
     transform: none;
     top: auto;
-    bottom: 80px;
+    bottom: 10px;
     width: auto;
     background: rgba(15, 23, 42, 0.9);
     backdrop-filter: blur(15px);
-    padding: 15px 20px;
+    padding: 10px 10px;
     border-radius: 12px;
     border-left: none;
     border-top: 3px solid #1e3a8a;
@@ -1610,6 +1611,7 @@ footer {
 
   .slide-prev {
     left: 10px;
+    
   }
 
   .slide-next {
@@ -1629,7 +1631,6 @@ footer {
   .dot.active {
     width: 20px;
   }
-
   /* About Section */
   .about {
     padding: 40px 0;
