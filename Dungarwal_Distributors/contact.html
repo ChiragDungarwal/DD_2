@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Contact | Dungarwal Distributors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Top Header with Dungarwal as Button and Brand Logos -->
+<div class="top-bar">
+  <div class="container">
+    <a href="index.html" class="company-name-btn">Dungarwal Distributors</a>
+    <div class="brand-logos">
+      <img src="images/bch-logo.png" alt="BCH Electric" class="brand-logo">
+      <img src="images/socomec-logo.png" alt="Socomec" class="brand-logo">
+    </div>
+  </div>
+</div>
+
+<!-- Main Navigation -->
+<nav class="main-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <!-- <img src="images/logo.png" alt="Logo" class="logo-img"> -->
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <div class="nav-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>Get in touch with us for inquiries and support</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Let's Connect</h2>
+        <p>Have questions about our products? Need a quote? We're here to help!</p>
+        
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Visit Us</h4>
+            <p>MSB-1, 316-317, New Siyaganj, Patthar Godam Road, Indore, Madhya Pradesh - 452007</p>
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Call Us</h4>
+            <p>+91 9950136568, +91 9232067636</p>
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email Us</h4>
+            <p>dungarwaldistributors@gmail.com</p>
+            <!-- <p>sales@dungarwal.com</p> -->
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <i class="fas fa-clock"></i>
+          <div>
+            <h4>Business Hours</h4>
+            <p>Monday - Saturday: 11:30 AM - 7:00 PM</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <h2>Send Inquiry</h2>
+        <form id="inquiryForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="text" id="phone" placeholder="Phone Number" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Your Requirement" required></textarea>
+          </div>
+          <button type="button" class="btn-primary" onclick="sendToWhatsApp()">
+            <i class="fab fa-whatsapp"></i> Send on WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Dungarwal Distributors</h4>
+        <p>Your trusted partner for industrial electrical products and solution</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <p><i class="fas fa-phone"></i>+91 9950136568, +91 9232067636</p>
+        <p><i class="fas fa-envelope"></i> dungarwaldistributors@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Dungarwal Distributors. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
