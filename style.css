@@ -1534,7 +1534,7 @@ footer {
 
   /* Hero Slideshow - Mobile */
   .hero {
-    min-height: 500px;
+    min-height: 400px;
     margin: 10px 5px;
     max-width: 95%;
     border-radius: 15px;
@@ -1542,12 +1542,13 @@ footer {
 
   .slide-bg {
     width: 100%;
-    height: 100%;
+    height: 80%;
     left: 0;
-    top: 0;
+    top: 10%;
     border-radius: 15px;
-    opacity: 0.4;
-    background-size: cover;
+    opacity: 1;
+    background-size: contain;
+    background-position: center;
   }
 
   .slide-text {
