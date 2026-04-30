@@ -1536,7 +1536,7 @@ footer {
   /* Hero Slideshow - Mobile */
   .hero {
     min-height: 380px;
-    margin: 9px 0.5px;
+    margin: 5px 0.5px;
     max-width: 95%;
     border-radius: 10px 10px 10px 10px;
     display: flex;
@@ -1925,6 +1925,18 @@ footer {
   .brand-card p {
     font-size: 0.85rem;
   }
+  /* Small Mobile Contact Fixes - Add inside @media (max-width: 480px) */
+.page-header h1 {
+  font-size: 1.8rem;
+}
+
+.info-item {
+  gap: 12px;
+}
+
+.contact-form {
+  padding: 20px;
+}
 }
 
 /* Very Small Devices - 360px */
