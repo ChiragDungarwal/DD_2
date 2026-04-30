@@ -1536,7 +1536,7 @@ footer {
   /* Hero Slideshow - Mobile */
   .hero {
     min-height: 380px;
-    margin: 9px 0.5px 0.5px 0.5px;
+    margin: 10px auto;
     max-width: 95%;
     border-radius: 10px 10px 10px 10px;
     display: flex;
